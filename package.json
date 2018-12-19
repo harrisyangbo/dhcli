@@ -1,0 +1,20 @@
+{
+  "name": "dhcli",
+  "version": "1.0.0",
+  "description": "This is a cli for dahai",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Elvis Yang",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "commander": "2.19.0",
+    "inquirer": "6.2.1",
+    "promisify-cli": "^3.0.9",
+    "promisify-git": "^1.1.22",
+    "promisify-npm": "^1.0.25",
+    "wbp-gitlab": "^1.1.3"
+  }
+}
