@@ -1,8 +1,10 @@
 {
   "name": "dhcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a cli for dahai",
-  "main": "index.js",
+  "bin": {
+    "cli": "bin/dhcli.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
