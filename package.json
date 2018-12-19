@@ -12,6 +12,7 @@
     "bluebird": "^3.5.3",
     "commander": "2.19.0",
     "inquirer": "6.2.1",
+    "loading-cli": "^1.0.8",
     "promisify-cli": "^3.0.9",
     "promisify-git": "^1.1.22",
     "promisify-npm": "^1.0.25",
