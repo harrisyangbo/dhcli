@@ -1,6 +1,25 @@
 #!/usr/bin/env node
 
-var program = require('commander')
+console.log(__dirname)
+process.env.NODE_PATH = __dirname + '/../node_modules/'
+
+const chalk = require('chalk')
+const semver = require('semver')
+const path = require('path')
+const requiredVersion = require('../package.json').engines.node
+
+function checkNodeVersion (wanted, id) {
+    if (!semver.satisfies(process.version, wanted)) {
+      console.log(chalk.red(
+        'You are using Node ' + process.version + ', but this version of ' + id +
+        ' requires Node ' + wanted + '.\nPlease upgrade your Node version.'
+      ))
+      process.exit(1)
+    }
+}
+checkNodeVersion(requiredVersion, 'dh-cli')
+
+const program = require('commander')
 
 program
     .version(require('../package').version, '-v --version')
