@@ -1,7 +1,6 @@
 #!/usr/bin/env node
 
-console.log(__dirname)
-process.env.NODE_PATH = __dirname + '/../node_modules/'
+// process.env.NODE_PATH = __dirname + '/../node_modules/'
 
 const chalk = require('chalk')
 const semver = require('semver')
@@ -9,6 +8,7 @@ const path = require('path')
 const requiredVersion = require('../package.json').engines.node
 
 function checkNodeVersion (wanted, id) {
+    console.log(process.version)
     if (!semver.satisfies(process.version, wanted)) {
       console.log(chalk.red(
         'You are using Node ' + process.version + ', but this version of ' + id +

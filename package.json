@@ -1,9 +1,9 @@
 {
   "name": "dhcli",
-  "version": "1.0.1",
+  "version": "1.0.7",
   "description": "This is a cli for dahai",
   "bin": {
-    "cli": "./bin/dhcli"
+    "cli": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -20,6 +20,7 @@
     "inquirer": "6.2.1",
     "loading-cli": "^1.0.8",
     "promisify-cli": "^3.0.9",
+    "promisify-fs": "^1.0.39",
     "promisify-git": "^1.1.22",
     "promisify-npm": "^1.0.25",
     "semver": "^5.6.0",
