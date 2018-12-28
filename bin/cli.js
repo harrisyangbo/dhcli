@@ -42,7 +42,7 @@ program.command('init')
 
 program.command('dev')
     .action(() => {
-        require('../lib/dev')
+        require('../lib/dev')()
     })
 
 program
