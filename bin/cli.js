@@ -51,9 +51,7 @@ program
     .option('d, --default', 'build your project for test')
     .description('build your project use dhcli')
     .action((name, cmd) => {
-        console.log(name)
-        console.log(cmd)
-        // require('../lib/init')()
+        require('../lib/build')(name)
     })
 
 
