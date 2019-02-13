@@ -1,6 +1,6 @@
 {
   "name": "dhcli",
-  "version": "1.0.29",
+  "version": "1.0.31",
   "description": "This is a cli for dahai",
   "bin": {
     "cli": "./bin/cli.js"
@@ -41,7 +41,7 @@
     "promisify-git": "^1.1.22",
     "promisify-npm": "^1.0.25",
     "semver": "^5.6.0",
-    "uglifyjs-webpack-plugin": "^2.1.0",
+    "uglifyjs-webpack-plugin": "^0.4.6",
     "vue-loader": "15.2.6",
     "vue-template-compiler": "2.5.16",
     "wbp-gitlab": "^1.1.3",
