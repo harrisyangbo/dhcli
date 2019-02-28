@@ -1,6 +1,6 @@
 {
   "name": "dhcli",
-  "version": "1.0.37",
+  "version": "1.0.38",
   "description": "This is a cli for dahai",
   "bin": {
     "cli": "./bin/cli.js"
