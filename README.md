@@ -60,4 +60,6 @@
 
 编译成功后会自动打git tag，需要开发者自行输入tag名，编译测试包tag名以**d开头**，生产包tag名以**p开头**。
 
-##### [github][https://github.com/frontlove/dhcli]
+#### github地址
+
+[github][https://github.com/frontlove/dhcli]
