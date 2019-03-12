@@ -1,6 +1,6 @@
 {
   "name": "dhcli",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "This is a cli for dahai",
   "bin": {
     "cli": "./bin/cli.js"
@@ -48,6 +48,8 @@
     "webpack": "3.5.5",
     "webpack-dev-middleware": "1.12.0",
     "webpack-hot-middleware": "2.18.2",
-    "webpack-node-externals": "1.6.0"
+    "webpack-node-externals": "1.6.0",
+    "style-loader": "0.23.1",
+    "css-loader": "2.1.1"
   }
 }
